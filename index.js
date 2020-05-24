@@ -4,10 +4,10 @@ module.exports = {
 	extends: 'eslint:recommended',
 	rules: {
 		// Possible errors
-		'no-loss-of-precision': 'error'
+		'no-loss-of-precision': 'error',
 		// Best practices
 		'eqeqeq': ['error', 'smart'],
-		'no-return-await': 'error'
+		'no-return-await': 'error',
 		'radix': 'error',
 		// Strict mode
 		'strict': ['error', 'global'],
