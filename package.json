@@ -1,0 +1,29 @@
+{
+	"name": "@valtlai/eslint-config",
+	"version": "0.1.0",
+	"description": "Base ESLint config for my personal projects",
+	"author": "Valtteri Laitinen <dev@valtlai.fi>",
+	"license": "MIT",
+	"repository": "https://github.com/valtlai/eslint-config",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"test": "eslint ."
+	},
+	"devDependencies": {
+		"@valtlai/eslint-config": "^0.1.0",
+		"eslint": "^7.1.0"
+	},
+	"peerDependencies": {
+		"eslint": ">= 7"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig"
+	],
+	"eslintConfig": {
+		"root": true,
+		"extends": "@valtlai"
+	}
+}
