@@ -7,6 +7,7 @@ module.exports = {
 		'no-loss-of-precision': 'error',
 		// Best practices
 		'eqeqeq': ['error', 'smart'],
+		'no-param-reassign': 'error',
 		'no-return-await': 'error',
 		'radix': 'error',
 		// Strict mode
@@ -20,6 +21,7 @@ module.exports = {
 			caughtErrorsIgnorePattern: '^_$'
 		}],
 		// Stylistic issues
+		'quote-props': ['error', 'consistent-as-needed'],
 		'quotes': ['error', 'single', { avoidEscape: true }],
 		'semi': 'error',
 		// ES6
