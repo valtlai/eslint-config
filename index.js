@@ -5,10 +5,12 @@ module.exports = {
 	rules: {
 		// Possible errors
 		'no-loss-of-precision': 'error',
+		'no-unreachable-loop': 'error',
 		// Best practices
 		'eqeqeq': ['error', 'smart'],
 		'no-param-reassign': 'error',
 		'no-return-await': 'error',
+		'no-unused-expressions': 'error',
 		'radix': 'error',
 		// Strict mode
 		'strict': ['error', 'global'],
