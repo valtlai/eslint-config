@@ -13,10 +13,10 @@
 	},
 	"devDependencies": {
 		"@valtlai/eslint-config": ".",
-		"eslint": "^7.3.0"
+		"eslint": "^7.5.0"
 	},
 	"peerDependencies": {
-		"eslint": ">=7.3.0"
+		"eslint": ">=7.5.0"
 	},
 	"eslintConfig": {
 		"extends": "@valtlai",
