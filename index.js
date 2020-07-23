@@ -2,6 +2,7 @@
 
 module.exports = {
 	root: true,
+	ignorePatterns: ['!.*', '.git'],
 	extends: 'eslint:recommended',
 	rules: {
 		// Possible errors
