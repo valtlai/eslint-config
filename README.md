@@ -5,6 +5,16 @@
 
 Base ESLint config for my personal projects
 
+## Install
+
+To install or update the package and its peer dependency:
+
 ```sh
-npm i @valtlai/eslint-config -D
+npm i -D @valtlai/eslint-config@latest eslint@latest
+```
+
+To enable, add this in your ESLint config:
+
+```json
+"extends": "@valtlai"
 ```
