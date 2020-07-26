@@ -5,8 +5,9 @@
 	"author": "Valtteri Laitinen <dev@valtlai.fi>",
 	"license": "MIT",
 	"repository": "https://github.com/valtlai/eslint-config",
+	"main": "src",
 	"files": [
-		"index.js"
+		"src"
 	],
 	"scripts": {
 		"test": "eslint ."
@@ -18,7 +19,7 @@
 		"eslint": ">=7.5.0"
 	},
 	"eslintConfig": {
-		"extends": ".",
+		"extends": "./src",
 		"env": {
 			"node": true
 		}
