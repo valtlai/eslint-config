@@ -21,8 +21,7 @@ module.exports = {
 		'no-unused-vars': ['error', {
 			args: 'all',
 			argsIgnorePattern: '^_$',
-			caughtErrors: 'all',
-			caughtErrorsIgnorePattern: '^_$'
+			caughtErrors: 'all'
 		}],
 		// Stylistic issues
 		'quote-props': ['error', 'consistent-as-needed'],
