@@ -16,11 +16,7 @@ module.exports = {
 	'strict': ['error', 'global'],
 
 	// Variables
-	'no-unused-vars': ['error', { // @override
-		args: 'all',
-		argsIgnorePattern: '^_$',
-		caughtErrors: 'all'
-	}],
+	'no-unused-vars': ['error', { caughtErrors: 'all' }], // @override
 
 	// Stylistic Issues
 	'quote-props': ['error', 'consistent-as-needed'],
