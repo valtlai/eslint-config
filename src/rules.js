@@ -69,6 +69,17 @@ module.exports = {
 	'unicode-bom': 'error',
 
 	// ECMAScript 6
+	'arrow-spacing': 'error',
+	'no-duplicate-imports': 'error',
+	'no-useless-computed-key': ['error', { enforceForClassMembers: true }],
+	'no-useless-constructor': 'error',
+	'no-useless-rename': 'error',
 	'no-var': 'error',
+	'object-shorthand': ['error', 'always', { avoidExplicitReturnArrows: true }],
 	'prefer-const': 'error',
+	'prefer-numeric-literals': 'error',
+	'prefer-rest-params': 'error',
+	'prefer-spread': 'error',
+	'rest-spread-spacing': 'error',
+	'template-curly-spacing': 'error',
 };
