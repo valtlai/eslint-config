@@ -22,7 +22,8 @@ module.exports = {
 
 	// Stylistic Issues
 	'array-bracket-spacing': 'error',
-	'brace-style': 'error',
+	'block-spacing': 'error',
+	'brace-style': ['error', '1tbs', { allowSingleLine: true }],
 	'comma-spacing': 'error',
 	'comma-style': 'error',
 	'computed-property-spacing': 'error',
