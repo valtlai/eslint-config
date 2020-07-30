@@ -16,7 +16,9 @@ module.exports = {
 	'strict': ['error', 'global'],
 
 	// Variables
+	'no-undef-init': 'error',
 	'no-unused-vars': ['error', { caughtErrors: 'all' }], // @override
+	'no-use-before-define': 'error',
 
 	// Stylistic Issues
 	'array-bracket-spacing': 'error',
