@@ -2,8 +2,16 @@
 
 module.exports = {
 	// Possible Errors
+	'no-await-in-loop': 'error',
+	'no-extra-boolean-cast': ['error', { enforceForLogicalOperands: true }], // @override
+	'no-irregular-whitespace': ['error', { skipStrings: false }], // @override
 	'no-loss-of-precision': 'error',
+	'no-promise-executor-return': 'error',
+	'no-template-curly-in-string': 'error',
 	'no-unreachable-loop': 'error',
+	'no-useless-backreference': 'error',
+	'require-atomic-updates': 'error',
+	'use-isnan': ['error', { enforceForIndexOf: true }], // @override
 
 	// Best Practices
 	'accessor-pairs': 'error',
