@@ -41,7 +41,6 @@ module.exports = {
 	'no-multi-str': 'error',
 	'no-new': 'error',
 	'no-new-func': 'error',
-	'no-new-wrappers': 'error',
 	'no-param-reassign': 'error',
 	'no-proto': 'error',
 	'no-return-assign': ['error', 'always'],
@@ -67,7 +66,6 @@ module.exports = {
 
 	// Variables
 	'no-undef-init': 'error',
-	'no-unused-vars': ['error', { caughtErrors: 'all' }], // @override
 	'no-use-before-define': 'error',
 
 	// Stylistic Issues
@@ -92,7 +90,6 @@ module.exports = {
 	'no-multi-assign': 'error',
 	'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0, maxBOF: 0 }],
 	'no-negated-condition': 'error',
-	'no-nested-ternary': 'error',
 	'no-new-object': 'error',
 	'no-tabs': ['error', { allowIndentationTabs: true }],
 	'no-trailing-spaces': 'error',
@@ -124,6 +121,7 @@ module.exports = {
 	// ECMAScript 6
 	'arrow-spacing': 'error',
 	'no-duplicate-imports': 'error',
+	'no-new-symbol': 'off', // ~> unicorn/new-for-builtins // @override
 	'no-useless-computed-key': ['error', { enforceForClassMembers: true }],
 	'no-useless-constructor': 'error',
 	'no-useless-rename': 'error',
@@ -135,4 +133,38 @@ module.exports = {
 	'prefer-spread': 'error',
 	'rest-spread-spacing': 'error',
 	'template-curly-spacing': 'error',
+
+	// plugin:unicorn
+	'unicorn/better-regex': 'error',
+	'unicorn/catch-error-name': 'error',
+	'unicorn/consistent-function-scoping': 'error',
+	'unicorn/custom-error-definition': 'error',
+	'unicorn/error-message': 'error',
+	'unicorn/escape-case': 'error',
+	'unicorn/filename-case': 'error',
+	'unicorn/import-index': ['error', { ignoreImports: true }],
+	'unicorn/new-for-builtins': 'error',
+	'unicorn/no-abusive-eslint-disable': 'error',
+	'unicorn/no-array-instanceof': 'error',
+	'unicorn/no-console-spaces': 'error',
+	'unicorn/no-for-loop': 'error',
+	'unicorn/no-nested-ternary': 'error',
+	'unicorn/no-object-as-default-parameter': 'error',
+	'unicorn/no-unsafe-regex': 'error',
+	'unicorn/no-unused-properties': 'error',
+	'unicorn/no-zero-fractions': 'error',
+	'unicorn/number-literal-case': 'error',
+	'unicorn/prefer-array-find': 'error',
+	'unicorn/prefer-flat-map': 'error',
+	'unicorn/prefer-includes': 'error',
+	'unicorn/prefer-negative-index': 'error',
+	'unicorn/prefer-number-properties': 'error',
+	'unicorn/prefer-optional-catch-binding': 'error',
+	'unicorn/prefer-reflect-apply': 'error',
+	'unicorn/prefer-spread': 'error',
+	'unicorn/prefer-starts-ends-with': 'error',
+	'unicorn/prefer-string-slice': 'error',
+	'unicorn/prefer-trim-start-end': 'error',
+	'unicorn/prefer-type-error': 'error',
+	'unicorn/throw-new-error': 'error', // to autofix (~> new-cap, unicorn/new-for-builtins)
 };

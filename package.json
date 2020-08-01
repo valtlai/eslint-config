@@ -13,10 +13,12 @@
 		"test": "eslint ."
 	},
 	"devDependencies": {
-		"eslint": "~7.5.0"
+		"eslint": "~7.5.0",
+		"eslint-plugin-unicorn": "~21.0.0"
 	},
 	"peerDependencies": {
-		"eslint": ">=7.5.0"
+		"eslint": ">=7.5.0",
+		"eslint-plugin-unicorn": ">=21.0.0"
 	},
 	"eslintConfig": {
 		"extends": "./src",
