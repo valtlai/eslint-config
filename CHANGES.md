@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.5.0] (2020-08-02)
+* Added over 100 rules from the ESLint core
+* Added 32 rules from [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
+* Removed or updated several rules
+* Required `eslint >=7.6.0` (updated)
+* Required `eslint-plugin-unicorn >=21.0.0` (added)
+* Updated the README and recommended using tilde ranges
+* Refactored code
+
 ## [0.4.0] (2020-07-23)
 * Added `root: true`
 * Added `ignorePatterns` to lint dotfiles
@@ -27,6 +36,7 @@
 * Initial release
 * This version is completely broken, so it was removed from the NPM registry
 
+[0.5.0]: https://github.com/valtlai/eslint-config/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/valtlai/eslint-config/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/valtlai/eslint-config/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/valtlai/eslint-config/compare/v0.1.1...v0.2.0
