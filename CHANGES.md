@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+* Enabled [`comma-dangle`](https://eslint.org/docs/rules/comma-dangle)
+to disallow trailing comma in single-line constructs
 * Enabled [`key-spacing`](https://eslint.org/docs/rules/key-spacing)
 allowing multiple spaces after the colon in multi-line object literals
 to align similar values
