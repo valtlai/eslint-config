@@ -135,7 +135,7 @@ module.exports = {
 	'template-curly-spacing': 'error',
 
 	// plugin:unicorn
-	'unicorn/better-regex': 'error',
+	'unicorn/better-regex': ['error', { sortCharacterClasses: false }],
 	'unicorn/catch-error-name': 'error',
 	'unicorn/consistent-function-scoping': 'error',
 	'unicorn/custom-error-definition': 'error',
