@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.0] (2020-08-02)
+* Updated
+[`spaced-comment`](https://eslint.org/docs/rules/spaced-comment)
+to allow asterisks at the start of a block comment without whitespace before it
+* Updated
+[`unicorn/better-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/better-regex.md)
+to not sort character classes
+
 ## [0.5.0] (2020-08-02)
 * Added over 100 rules from the ESLint core
 * Added 32 rules from [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
