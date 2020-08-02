@@ -113,7 +113,7 @@ module.exports = {
 	'space-in-parens': 'error',
 	'space-infix-ops': 'error',
 	'space-unary-ops': 'error',
-	'spaced-comment': ['error', 'always', { block: { balanced: true } }],
+	'spaced-comment': ['error', 'always', { block: { exceptions: ['*'], balanced: true } }],
 	'switch-colon-spacing': 'error',
 	'template-tag-spacing': 'error',
 	'unicode-bom': 'error',
