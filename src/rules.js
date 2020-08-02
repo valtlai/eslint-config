@@ -80,6 +80,7 @@ module.exports = {
 	'function-call-argument-newline': ['error', 'consistent'],
 	'implicit-arrow-linebreak': 'error',
 	'indent': ['error', 'tab', { SwitchCase: 1 }],
+	'key-spacing': ['error', { multiLine: { mode: 'minimum' } }],
 	'keyword-spacing': 'error',
 	'max-statements-per-line': 'error',
 	'new-cap': 'error',
