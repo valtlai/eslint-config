@@ -1,6 +1,7 @@
 # Changelog
 
 ## [Unreleased]
+* Added `node` and `browser` configs
 * Enabled [`comma-dangle`](https://eslint.org/docs/rules/comma-dangle)
 to disallow trailing comma in single-line constructs
 * Enabled [`key-spacing`](https://eslint.org/docs/rules/key-spacing)
