@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [0.7.0] (2020-08-04)
 * Added `node` and `browser` configs
 * Enabled [`comma-dangle`](https://eslint.org/docs/rules/comma-dangle)
 to disallow trailing comma in single-line constructs
@@ -22,7 +22,7 @@ to not sort character classes
 * Removed or updated several rules
 * Required `eslint >=7.6.0` (updated)
 * Required `eslint-plugin-unicorn >=21.0.0` (added)
-* Updated the README and recommended using tilde ranges
+* Updated README and recommended using tilde ranges
 * Refactored code
 
 ## [0.4.0] (2020-07-23)
@@ -52,7 +52,7 @@ to not sort character classes
 * Initial release
 * This version is completely broken, so it was removed from the NPM registry
 
-[Unreleased]: https://github.com/valtlai/eslint-config/compare/v0.6.0...HEAD
+[0.7.0]: https://github.com/valtlai/eslint-config/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/valtlai/eslint-config/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/valtlai/eslint-config/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/valtlai/eslint-config/compare/v0.3.0...v0.4.0
