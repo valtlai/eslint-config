@@ -40,8 +40,8 @@ When all the files are Node-related:
 
 ```json
 "extends": [
-	"@valtlai",
-	"@valtlai/eslint-config/node"
+   "@valtlai",
+   "@valtlai/eslint-config/node"
 ]
 ```
 
@@ -50,13 +50,13 @@ When some of the files are browser-related and rest of them Node-related:
 ```json
 "extends": "@valtlai",
 "overrides": [
-	{
-		"files": "!web/**",
-		"extends": "@valtlai/eslint-config/node"
-	},
-	{
-		"files": "web/**",
-		"extends": "@valtlai/eslint-config/browser"
-	}
+   {
+      "files": "!web/**",
+      "extends": "@valtlai/eslint-config/node"
+   },
+   {
+      "files": "web/**",
+      "extends": "@valtlai/eslint-config/browser"
+   }
 ]
 ```
