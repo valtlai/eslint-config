@@ -1,7 +1,8 @@
 # Changelog
 
-## [Unreleased]
-* Marked `*.mjs` files ECMAScript modules and unset CommonJS module globals
+## [0.8.0] (2020-08-06)
+* Marked the `*.mjs` files as ECMAScript modules
+and unset the CommonJS module globals
 
 ## [0.7.0] (2020-08-04)
 * Added `node` and `browser` configs
@@ -55,7 +56,7 @@ to not sort character classes
 * Initial release
 * This version is completely broken, so it was removed from the NPM registry
 
-[Unreleased]: https://github.com/valtlai/eslint-config/compare/v0.7.0...HEAD
+[0.8.0]: https://github.com/valtlai/eslint-config/compare/v0.7.0...v0.8.0
 [0.7.0]: https://github.com/valtlai/eslint-config/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/valtlai/eslint-config/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/valtlai/eslint-config/compare/v0.4.0...v0.5.0
