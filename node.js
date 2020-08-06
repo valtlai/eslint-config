@@ -10,8 +10,7 @@ module.exports = {
 			globals: {
 				module: 'off',
 				exports: 'off',
-				require: 'off',
-				isNodeModule: 'readable'
+				require: 'off'
 			}
 		}
 	]
