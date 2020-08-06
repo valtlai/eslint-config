@@ -1,7 +1,7 @@
 # Changelog
 
 ## [0.8.0] (2020-08-06)
-* Marked the `*.mjs` files as ECMAScript modules
+* In `node` config, marked the `*.mjs` files as ECMAScript modules
 and unset the CommonJS module globals
 
 ## [0.7.0] (2020-08-04)
