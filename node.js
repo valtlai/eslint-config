@@ -2,5 +2,17 @@
 
 module.exports = {
 	env: { node: true },
-	rules: require('./rules/node')
+	rules: require('./rules/node'),
+	overrides: [
+		{
+			files: '*.mjs',
+			parserOptions: { sourceType: 'module' },
+			globals: {
+				module: 'off',
+				exports: 'off',
+				require: 'off',
+				isNodeModule: 'readable'
+			}
+		}
+	]
 };
