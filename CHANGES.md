@@ -1,7 +1,12 @@
 # Changelog
 
+## [0.9.0] (2020-08-08)
+* In the `node` config, allowed `gulpfile.mjs` contain `async` functions
+which have no `await` expression to signal task completion
+(overridden [`require-await`](https://eslint.org/docs/rules/require-await))
+
 ## [0.8.0] (2020-08-06)
-* In `node` config, marked the `*.mjs` files as ECMAScript modules
+* In the `node` config, marked the `*.mjs` files as ECMAScript modules
 and unset the CommonJS module globals
 
 ## [0.7.0] (2020-08-04)
@@ -56,6 +61,7 @@ to not sort character classes
 * Initial release
 * This version is completely broken, so it was removed from the NPM registry
 
+[0.9.0]: https://github.com/valtlai/eslint-config/compare/v0.8.0...v0.9.0
 [0.8.0]: https://github.com/valtlai/eslint-config/compare/v0.7.0...v0.8.0
 [0.7.0]: https://github.com/valtlai/eslint-config/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/valtlai/eslint-config/compare/v0.5.0...v0.6.0
