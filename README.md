@@ -10,7 +10,8 @@ ESLint config for my personal projects
 To install or update the package and its peer dependencies:
 
 ```sh
-npm i -D --save-prefix='~' @valtlai/eslint-config@latest eslint@latest eslint-plugin-unicorn@latest
+npm i -D --save-prefix='~' @valtlai/eslint-config@latest \
+   eslint@latest eslint-plugin-unicorn@latest eslint-plugin-node@latest
 ```
 
 The tilde (`~`) ranges only allow patch-level updates
