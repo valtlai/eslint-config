@@ -1,18 +1,12 @@
 'use strict';
 
+const rules = require('./rules/node');
+
 module.exports = {
 	env: { node: true },
-	rules: require('./rules/node'),
+	extends: 'plugin:node/recommended',
+	rules,
 	overrides: [
-		{
-			files: '*.mjs',
-			parserOptions: { sourceType: 'module' },
-			globals: {
-				module: 'off',
-				exports: 'off',
-				require: 'off'
-			}
-		},
 		{
 			files: 'gulpfile.mjs',
 			rules: { 'require-await': 'off' }
