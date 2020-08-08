@@ -12,6 +12,10 @@ module.exports = {
 				exports: 'off',
 				require: 'off'
 			}
+		},
+		{
+			files: 'gulpfile.mjs',
+			rules: { 'require-await': 'off' }
 		}
 	]
 };
