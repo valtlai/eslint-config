@@ -95,7 +95,7 @@ module.exports = {
 	'no-new-object': 'error',
 	'no-tabs': ['error', { allowIndentationTabs: true }],
 	'no-trailing-spaces': 'error',
-	'no-underscore-dangle': 'error',
+	'no-underscore-dangle': ['error', { allowFunctionParams: false }],
 	'no-unneeded-ternary': ['error', { defaultAssignment: false }],
 	'no-whitespace-before-property': 'error',
 	'nonblock-statement-body-position': 'error',
