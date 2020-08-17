@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.12.0] (2020-08-17)
+* Updated [`no-underscore-dangle`](https://eslint.org/docs/rules/no-underscore-dangle):
+disallowed in function parameters
+* Updated [`space-before-function-paren`](https://eslint.org/docs/rules/space-before-function-paren):
+always required
+* Required `eslint >=7.7.0` (updated)
+
 ## [0.11.0] (2020-08-11)
 * Removed the override for `gulpfile.mjs` from the `node` config (undid v0.9.0)
 
@@ -70,6 +77,7 @@ to not sort character classes
 * Initial release
 * This version is completely broken, so it was removed from the NPM registry
 
+[0.11.0]: https://github.com/valtlai/eslint-config/compare/v0.11.0...v0.12.0
 [0.11.0]: https://github.com/valtlai/eslint-config/compare/v0.10.0...v0.11.0
 [0.10.0]: https://github.com/valtlai/eslint-config/compare/v0.9.0...v0.10.0
 [0.9.0]: https://github.com/valtlai/eslint-config/compare/v0.8.0...v0.9.0
