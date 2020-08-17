@@ -121,6 +121,7 @@ module.exports = {
 	'unicode-bom': 'error',
 
 	// ECMAScript 6
+	'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
 	'arrow-spacing': 'error',
 	'no-duplicate-imports': 'error',
 	'no-new-symbol': 'off', // ~> unicorn/new-for-builtins // @override
