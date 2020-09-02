@@ -4,6 +4,7 @@
 * Enabled [`arrow-parens`](https://eslint.org/docs/rules/arrow-parens)
 to always require parentheses around the function parameters,
 if the body is surrounded by braces, and otherwise to omit them when possible
+* Required `eslint >=7.8.1` (updated)
 
 ## [0.12.0] (2020-08-17)
 * Updated [`no-underscore-dangle`](https://eslint.org/docs/rules/no-underscore-dangle):
