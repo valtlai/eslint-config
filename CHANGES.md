@@ -1,16 +1,16 @@
 # Changelog
 
-## [Unreleased]
+## [0.13.0] (2020-09-02)
 * Enabled [`arrow-parens`](https://eslint.org/docs/rules/arrow-parens)
-to always require parentheses around the function parameters,
-if the body is surrounded by braces, and otherwise to omit them when possible
+  to always require parentheses around the function parameters
+  if the body is surrounded by braces, and otherwise to omit them when possible
 * Required `eslint >=7.8.1` (updated)
 
 ## [0.12.0] (2020-08-17)
 * Updated [`no-underscore-dangle`](https://eslint.org/docs/rules/no-underscore-dangle):
-disallowed in function parameters
+  disallowed in function parameters
 * Updated [`space-before-function-paren`](https://eslint.org/docs/rules/space-before-function-paren):
-always required
+  always required
 * Required `eslint >=7.7.0` (updated)
 
 ## [0.11.0] (2020-08-11)
@@ -24,28 +24,27 @@ always required
 
 ## [0.9.0] (2020-08-08)
 * In the `node` config, allowed `gulpfile.mjs` contain `async` functions
-which have no `await` expression to signal task completion
-(overridden [`require-await`](https://eslint.org/docs/rules/require-await))
+  that have no `await` expression to signal task completion
+  (overridden [`require-await`](https://eslint.org/docs/rules/require-await))
 
 ## [0.8.0] (2020-08-06)
 * In the `node` config, marked `*.mjs` files as ECMAScript modules
-and unset the CommonJS module globals `module`, `exports` and `require`
+  and unset the CommonJS module globals `module`, `exports` and `require`
 
 ## [0.7.0] (2020-08-04)
 * Added `node` and `browser` configs
 * Enabled [`comma-dangle`](https://eslint.org/docs/rules/comma-dangle)
-to disallow trailing comma in single-line constructs
+  to disallow trailing comma in single-line constructs
 * Enabled [`key-spacing`](https://eslint.org/docs/rules/key-spacing)
-allowing multiple spaces after the colon in multi-line object literals
-to align similar values
+  allowing multiple spaces after the colon in multi-line object literals
+  to align similar values
 
 ## [0.6.0] (2020-08-02)
+* Updated [`spaced-comment`](https://eslint.org/docs/rules/spaced-comment) to
+  allow asterisks at the start of a block comment without whitespace before it
 * Updated
-[`spaced-comment`](https://eslint.org/docs/rules/spaced-comment)
-to allow asterisks at the start of a block comment without whitespace before it
-* Updated
-[`unicorn/better-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/better-regex.md)
-to not sort character classes
+  [`unicorn/better-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/better-regex.md)
+  to not sort character classes
 
 ## [0.5.0] (2020-08-02)
 * Added over 100 rules from the ESLint core
@@ -83,7 +82,7 @@ to not sort character classes
 * Initial release
 * This version is completely broken, so it was removed from the NPM registry
 
-[Unreleased]: https://github.com/valtlai/eslint-config/compare/v0.12.0...HEAD
+[0.13.0]: https://github.com/valtlai/eslint-config/compare/v0.12.0...v0.13.0
 [0.12.0]: https://github.com/valtlai/eslint-config/compare/v0.11.0...v0.12.0
 [0.11.0]: https://github.com/valtlai/eslint-config/compare/v0.10.0...v0.11.0
 [0.10.0]: https://github.com/valtlai/eslint-config/compare/v0.9.0...v0.10.0
