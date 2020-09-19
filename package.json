@@ -1,10 +1,10 @@
 {
 	"name": "@valtlai/eslint-config",
-	"version": "0.13.0",
+	"version": "0.14.0",
 	"description": "ESLint config for my personal projects",
 	"author": "Valtteri Laitinen <dev@valtlai.fi>",
 	"license": "MIT",
-	"repository": "https://github.com/valtlai/eslint-config",
+	"repository": "valtlai/eslint-config",
 	"files": [
 		"**/*.js"
 	],

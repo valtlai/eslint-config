@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.14.0] (2020-09-19)
+* Set `ecmaVersion` to `2021`
+* Required `eslint >=7.9.0` (updated)
+* Required `eslint-plugin-unicorn >=22.0.0` (updated)
+
 ## [0.13.0] (2020-09-02)
 * Enabled [`arrow-parens`](https://eslint.org/docs/rules/arrow-parens)
   to always require parentheses around the function parameters
@@ -82,6 +87,7 @@
 * Initial release
 * This version is completely broken, so it was removed from the NPM registry
 
+[0.14.0]: https://github.com/valtlai/eslint-config/compare/v0.13.0...v0.14.0
 [0.13.0]: https://github.com/valtlai/eslint-config/compare/v0.12.0...v0.13.0
 [0.12.0]: https://github.com/valtlai/eslint-config/compare/v0.11.0...v0.12.0
 [0.11.0]: https://github.com/valtlai/eslint-config/compare/v0.10.0...v0.11.0
