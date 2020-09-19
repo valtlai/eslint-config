@@ -7,5 +7,6 @@ module.exports = {
 	ignorePatterns: ['!.*', '.git'],
 	plugins: ['unicorn'],
 	extends: 'eslint:recommended',
+	parserOptions: { ecmaVersion: 2021 },
 	rules
 };
