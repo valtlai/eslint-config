@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.15.0] (2020-09-19)
+* Disabled
+  [`node/no-unpublished-import`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-import.md)
+  and
+  [`node/no-unpublished-require`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-require.md)
+  for
+  [ava](https://github.com/avajs/ava)
+
 ## [0.14.0] (2020-09-19)
 * Set `ecmaVersion` to `2021`
 * Required `eslint >=7.9.0` (updated)
@@ -87,6 +95,7 @@
 * Initial release
 * This version is completely broken, so it was removed from the NPM registry
 
+[0.15.0]: https://github.com/valtlai/eslint-config/compare/v0.14.0...v0.15.0
 [0.14.0]: https://github.com/valtlai/eslint-config/compare/v0.13.0...v0.14.0
 [0.13.0]: https://github.com/valtlai/eslint-config/compare/v0.12.0...v0.13.0
 [0.12.0]: https://github.com/valtlai/eslint-config/compare/v0.11.0...v0.12.0
