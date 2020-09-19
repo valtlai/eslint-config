@@ -6,6 +6,8 @@ module.exports = {
 	// Possible Errors
 	'node/handle-callback-err': ['error', '^err(?:or)?$'],
 	'node/no-path-concat': 'error',
+	'node/no-unpublished-import': ['error', { allowModules: ['ava'] }], // @override
+	'node/no-unpublished-require': ['error', { allowModules: ['ava'] }], // @override
 	// Stylistic Issues
 	'node/file-extension-in-import': 'error',
 	'node/global-require': 'error',
