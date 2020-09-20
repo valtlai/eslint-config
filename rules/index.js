@@ -78,7 +78,6 @@ module.exports = {
 	'computed-property-spacing': 'error',
 	'eol-last': 'error',
 	'func-call-spacing': 'error',
-	'function-call-argument-newline': ['error', 'consistent'],
 	'implicit-arrow-linebreak': 'error',
 	'indent': ['error', 'tab', { SwitchCase: 1 }],
 	'key-spacing': ['error', { multiLine: { mode: 'minimum' } }],
