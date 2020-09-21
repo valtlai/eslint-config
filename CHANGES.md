@@ -4,17 +4,11 @@
 * Enabled the `es2021` environment
 
 ## [0.16.0] (2020-09-20)
-* Disabled the
-  [`function-call-argument-newline`](https://eslint.org/docs/rules/function-call-argument-newline)
-  rule
+* Disabled the `function-call-argument-newline` rule
 
 ## [0.15.0] (2020-09-19)
-* Disabled
-  [`node/no-unpublished-import`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-import.md)
-  and
-  [`node/no-unpublished-require`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-require.md)
-  for
-  [ava](https://github.com/avajs/ava)
+* Disabled the `node/no-unpublished-import`
+  and `node/no-unpublished-require` rules for the `ava` package
 
 ## [0.14.0] (2020-09-19)
 * Set `ecmaVersion` to `2021`
@@ -22,23 +16,21 @@
 * Required `eslint-plugin-unicorn >=22.0.0` (updated)
 
 ## [0.13.0] (2020-09-02)
-* Enabled [`arrow-parens`](https://eslint.org/docs/rules/arrow-parens)
-  to always require parentheses around the function parameters
-  if the body is surrounded by braces, and otherwise to omit them when possible
+* Enabled `arrow-parens` to always require parentheses
+  around the function parameters if the body is surrounded by braces,
+  and otherwise to omit them when possible
 * Required `eslint >=7.8.1` (updated)
 
 ## [0.12.0] (2020-08-17)
-* Updated [`no-underscore-dangle`](https://eslint.org/docs/rules/no-underscore-dangle):
-  disallowed in function parameters
-* Updated [`space-before-function-paren`](https://eslint.org/docs/rules/space-before-function-paren):
-  always required
+* Updated `no-underscore-dangle`: disallowed in function parameters
+* Updated `space-before-function-paren`: always required
 * Required `eslint >=7.7.0` (updated)
 
 ## [0.11.0] (2020-08-11)
 * Removed the override for `gulpfile.mjs` from the `node` config (undid v0.9.0)
 
 ## [0.10.0] (2020-08-08)
-* Added [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)
+* Added [eslint-plugin-node]
 	* Enabled the `node/recommended` config and 14 other rules
 	* Unset `__dirname` and `__filename` ES modules
 * Required `eslint-plugin-node >=11.1.0` (added)
@@ -46,7 +38,7 @@
 ## [0.9.0] (2020-08-08)
 * In the `node` config, allowed `gulpfile.mjs` contain `async` functions
   that have no `await` expression to signal task completion
-  (overridden [`require-await`](https://eslint.org/docs/rules/require-await))
+  (overridden `require-await`)
 
 ## [0.8.0] (2020-08-06)
 * In the `node` config, marked `*.mjs` files as ECMAScript modules
@@ -54,22 +46,18 @@
 
 ## [0.7.0] (2020-08-04)
 * Added `node` and `browser` configs
-* Enabled [`comma-dangle`](https://eslint.org/docs/rules/comma-dangle)
-  to disallow trailing comma in single-line constructs
-* Enabled [`key-spacing`](https://eslint.org/docs/rules/key-spacing)
-  allowing multiple spaces after the colon in multi-line object literals
-  to align similar values
+* Enabled `comma-dangle` to disallow trailing comma in single-line constructs
+* Enabled `key-spacing` allowing multiple spaces after the colon
+  in multi-line object literals to align similar values
 
 ## [0.6.0] (2020-08-02)
-* Updated [`spaced-comment`](https://eslint.org/docs/rules/spaced-comment) to
-  allow asterisks at the start of a block comment without whitespace before it
-* Updated
-  [`unicorn/better-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/better-regex.md)
-  to not sort character classes
+* Updated `spaced-comment` to allow asterisks at the start of a block comment
+  without whitespace before it
+* Updated `unicorn/better-regex` to not sort character classes
 
 ## [0.5.0] (2020-08-02)
 * Added over 100 rules from the ESLint core
-* Added 32 rules from [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
+* Added 32 rules from [eslint-plugin-unicorn]
 * Removed or updated several rules
 * Required `eslint >=7.6.0` (updated)
 * Required `eslint-plugin-unicorn >=21.0.0` (added)
@@ -102,6 +90,9 @@
 ## [0.1.0] (2020-05-24)
 * Initial release
 * This version is completely broken, so it was removed from the NPM registry
+
+[eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node
+[eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
 
 [0.17.0]: https://github.com/valtlai/eslint-config/compare/v0.16.0...v0.17.0
 [0.16.0]: https://github.com/valtlai/eslint-config/compare/v0.15.0...v0.16.0
