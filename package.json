@@ -14,13 +14,17 @@
 	"devDependencies": {
 		"eslint": "~7.9.0",
 		"eslint-plugin-node": "~11.1.0",
-		"eslint-plugin-unicorn": "~22.0.0"
+		"eslint-plugin-unicorn": "~22.0.0",
+		"pre-commit": "^1.2.2"
 	},
 	"peerDependencies": {
 		"eslint": ">=7.9.0",
 		"eslint-plugin-node": ">=11.1.0",
 		"eslint-plugin-unicorn": ">=22.0.0"
 	},
+	"pre-commit": [
+		"test"
+	],
 	"eslintConfig": {
 		"extends": [
 			".",
