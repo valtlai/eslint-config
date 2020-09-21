@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.17.0] (2020-09-21)
+* Enabled the `es2021` environment
+
 ## [0.16.0] (2020-09-20)
 * Disabled the
   [`function-call-argument-newline`](https://eslint.org/docs/rules/function-call-argument-newline)
@@ -100,6 +103,7 @@
 * Initial release
 * This version is completely broken, so it was removed from the NPM registry
 
+[0.17.0]: https://github.com/valtlai/eslint-config/compare/v0.16.0...v0.17.0
 [0.16.0]: https://github.com/valtlai/eslint-config/compare/v0.15.0...v0.16.0
 [0.15.0]: https://github.com/valtlai/eslint-config/compare/v0.14.0...v0.15.0
 [0.14.0]: https://github.com/valtlai/eslint-config/compare/v0.13.0...v0.14.0
