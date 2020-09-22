@@ -9,7 +9,8 @@
 		"**/*.js"
 	],
 	"scripts": {
-		"test": "eslint ."
+		"test": "eslint .",
+		"reset": "rm -rf node_modules package-lock.json && npm i"
 	},
 	"engines": {
 		"node": "^10 || ^12 || >=14"
