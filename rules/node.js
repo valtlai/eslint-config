@@ -1,7 +1,8 @@
 'use strict';
 
 const getPackageJson = require('eslint-plugin-node/lib/util/get-package-json');
-const isPrivate = getPackageJson()?.private === true;
+const packageJson = getPackageJson();
+const isPrivate = packageJson && packageJson.require === true;
 
 module.exports = {
 	/** plugin:node **/

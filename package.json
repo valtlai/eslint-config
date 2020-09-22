@@ -11,6 +11,9 @@
 	"scripts": {
 		"test": "eslint ."
 	},
+	"engines": {
+		"node": "^10 || ^12 || >=14"
+	},
 	"devDependencies": {
 		"eslint": "~7.9.0",
 		"eslint-plugin-node": "~11.1.0",
