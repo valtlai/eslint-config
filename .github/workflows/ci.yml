@@ -1,0 +1,29 @@
+name: Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        os:
+          - label: Linux
+            key: ubuntu-latest
+          - label: Mac
+            key: macos-latest
+          - label: Windows
+            key: windows-latest
+        node: [10, 12, 14]
+    name: Node ${{ matrix.node }} on ${{ matrix.os.label }}
+    runs-on: ${{ matrix.os.key }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm ci
+      - run: npm test
