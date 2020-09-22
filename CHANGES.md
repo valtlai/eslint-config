@@ -2,6 +2,7 @@
 
 ## [0.19.0] (2020-09-22)
 * Made work on Node&nbsp;10 and&nbsp;12 too
+* Removed the development fields from `package.json` before publishing
 
 ## [0.18.0] (2020-09-21)
 * Disabled the `node/no-unpublished-import`
