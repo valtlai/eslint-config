@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.19.0] (2020-09-22)
+* Made work on Node&nbsp;10 and&nbsp;12 too
+
 ## [0.18.0] (2020-09-21)
 * Disabled the `node/no-unpublished-import`
   and `node/no-unpublished-require` rules for private packages
@@ -98,6 +101,7 @@
 [eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node
 [eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
 
+[0.19.0]: https://github.com/valtlai/eslint-config/compare/v0.18.0...v0.19.0
 [0.18.0]: https://github.com/valtlai/eslint-config/compare/v0.17.0...v0.18.0
 [0.17.0]: https://github.com/valtlai/eslint-config/compare/v0.16.0...v0.17.0
 [0.16.0]: https://github.com/valtlai/eslint-config/compare/v0.15.0...v0.16.0
