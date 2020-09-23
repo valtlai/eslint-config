@@ -5,13 +5,19 @@
 
 ESLint config for my personal projects
 
-## Install
+## Install or update
 
-To install or update the package and its peer dependencies:
+Install the package and its required peer dependencies:
 
 ```sh
 npm i -D --save-prefix='~' @valtlai/eslint-config@latest \
-   eslint@latest eslint-plugin-unicorn@latest eslint-plugin-node@latest
+   eslint@latest eslint-plugin-unicorn@latest
+```
+
+If you’re linting Node files, also install the optional peer dependency:
+
+```sh
+npm i -D --save-prefix='~' eslint-plugin-node@latest
 ```
 
 The tilde (`~`) ranges only allow patch-level updates
