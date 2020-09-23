@@ -26,6 +26,14 @@
 		"eslint-plugin-node": ">=11.1.0",
 		"eslint-plugin-unicorn": ">=22.0.0"
 	},
+	"peerDependenciesMeta": {
+		"eslint-plugin-node": {
+			"optional": true
+		},
+		"eslint-plugin-unicorn": {
+			"optional": true
+		}
+	},
 	"pre-commit": [
 		"test"
 	],
