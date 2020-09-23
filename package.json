@@ -29,9 +29,6 @@
 	"peerDependenciesMeta": {
 		"eslint-plugin-node": {
 			"optional": true
-		},
-		"eslint-plugin-unicorn": {
-			"optional": true
 		}
 	},
 	"pre-commit": [
