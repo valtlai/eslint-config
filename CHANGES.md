@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.20.1] (2020-09-23)
+* Required `eslint-plugin-unicorn`
+  (Only `eslint-plugin-node` should be optional)
+
 ## [0.20.0] (2020-09-23)
 * Marked the ESLint plugins as optional
 
@@ -109,6 +113,7 @@
 [eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node
 [eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
 
+[0.20.1]: https://github.com/valtlai/eslint-config/compare/v0.20.0...v0.20.1
 [0.20.0]: https://github.com/valtlai/eslint-config/compare/v0.19.1...v0.20.0
 [0.19.1]: https://github.com/valtlai/eslint-config/compare/v0.19.0...v0.19.1
 [0.19.0]: https://github.com/valtlai/eslint-config/compare/v0.18.0...v0.19.0
