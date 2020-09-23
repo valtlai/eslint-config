@@ -9,6 +9,10 @@ module.exports = {
 	// Possible Errors
 	'node/handle-callback-err': ['error', '^err(?:or)?$'],
 	'node/no-path-concat': 'error',
+	...(isPrivate && {
+		'node/no-unpublished-import': 'off', // @override
+		'node/no-unpublished-require': 'off', // @override
+	}),
 	// Stylistic Issues
 	'node/file-extension-in-import': 'error',
 	'node/global-require': 'error',
@@ -27,8 +31,3 @@ module.exports = {
 	'unicorn/no-new-buffer': 'error', // to autofix (~> node/no-deprecated-api)
 	'unicorn/no-process-exit': 'error',
 };
-
-if (isPrivate) {
-	module.exports['node/no-unpublished-import'] = 'off'; // @override
-	module.exports['node/no-unpublished-require'] = 'off'; // @override
-}
