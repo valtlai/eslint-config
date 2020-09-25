@@ -6,10 +6,12 @@
 	"license": "MIT",
 	"repository": "valtlai/eslint-config",
 	"files": [
-		"**/*.js"
+		"**/*.js",
+		"!prepack.js"
 	],
 	"scripts": {
 		"test": "eslint .",
+		"prepack": "node prepack",
 		"reset": "rm -rf node_modules package-lock.json && npm i"
 	},
 	"engines": {
