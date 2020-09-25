@@ -6,7 +6,7 @@ module.exports = {
 	'no-extra-boolean-cast': ['error', { enforceForLogicalOperands: true }], // @override
 	'no-irregular-whitespace': ['error', { skipStrings: false }], // @override
 	'no-loss-of-precision': 'error',
-	'no-promise-executor-return': 'error',
+	'no-promise-executor-return': 'error', // (= array-callback-return)
 	'no-template-curly-in-string': 'error',
 	'no-unreachable-loop': 'error',
 	'no-useless-backreference': 'error',
@@ -15,7 +15,7 @@ module.exports = {
 
 	// Best Practices
 	'accessor-pairs': 'error',
-	'array-callback-return': 'error',
+	'array-callback-return': 'error', // (= no-promise-executor-return)
 	'class-methods-use-this': 'error',
 	'default-case': 'error',
 	'default-case-last': 'error',
