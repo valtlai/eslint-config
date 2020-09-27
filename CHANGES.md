@@ -1,7 +1,11 @@
 # Changelog
 
+## [0.21.0] (2020-09-27)
+* Updated the installation docs
+* Required `eslint >=7.10.0` (updated)
+
 ## [0.20.1] (2020-09-23)
-* Required `eslint-plugin-unicorn`
+* Required `eslint-plugin-unicorn` again
   (Only `eslint-plugin-node` should be optional)
 
 ## [0.20.0] (2020-09-23)
@@ -64,7 +68,7 @@
   and unset the CommonJS module globals `module`, `exports` and `require`
 
 ## [0.7.0] (2020-08-04)
-* Added `node` and `browser` configs
+* Added the `node` and `browser` configs
 * Enabled `comma-dangle` to disallow trailing comma in single-line constructs
 * Enabled `key-spacing` allowing multiple spaces after the colon
   in multi-line object literals to align similar values
@@ -80,31 +84,25 @@
 * Removed or updated several rules
 * Required `eslint >=7.6.0` (updated)
 * Required `eslint-plugin-unicorn >=21.0.0` (added)
-* Updated README and recommended using tilde ranges
-* Refactored code
+* Updated the installation docs and recommended using tilde ranges
 
 ## [0.4.0] (2020-07-23)
 * Added `root: true`
 * Added `ignorePatterns` to lint dotfiles
-* Required the latest ESLint version
-* Extended the installation instructions
+* Required `eslint >=7.5.0` (updated)
+* Extended the installation docs
 
 ## [0.3.0] (2020-06-20)
 * Added the `no-unreachable-loop` rule
 * Added the `no-unused-expressions` rule
-* Required the latest ESLint version
+* Required `eslint >=7.3.0` (updated)
 
 ## [0.2.0] (2020-05-25)
 * Added the `no-param-reassign` rule
 * Added the `quote-props` rule
-* Updated the previous changelog entries
 
 ## [0.1.1] (2020-05-24)
 * Fixed the syntax errors
-* Fixed linting
-* Fixed the tag URL
-* Added NPM badges
-* Updated the previous changelog entry
 
 ## [0.1.0] (2020-05-24)
 * Initial release
@@ -113,6 +111,7 @@
 [eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node
 [eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
 
+[0.21.0]: https://github.com/valtlai/eslint-config/compare/v0.20.1...v0.21.0
 [0.20.1]: https://github.com/valtlai/eslint-config/compare/v0.20.0...v0.20.1
 [0.20.0]: https://github.com/valtlai/eslint-config/compare/v0.19.1...v0.20.0
 [0.19.1]: https://github.com/valtlai/eslint-config/compare/v0.19.0...v0.19.1
