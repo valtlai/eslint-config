@@ -21,7 +21,7 @@
 		"eslint": "~7.9.0",
 		"eslint-plugin-node": "~11.1.0",
 		"eslint-plugin-unicorn": "~22.0.0",
-		"pre-commit": "^1.2.2"
+		"husky": "^4.3.0"
 	},
 	"peerDependencies": {
 		"eslint": ">=7.9.0",
@@ -33,9 +33,11 @@
 			"optional": true
 		}
 	},
-	"pre-commit": [
-		"test"
-	],
+	"husky": {
+		"hooks": {
+			"pre-commit": "npm test"
+		}
+	},
 	"eslintConfig": {
 		"extends": [
 			".",
