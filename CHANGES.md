@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.22.0] (2020-10-16)
+* Enabled the new rules from eslint-plugin-unicorn:
+	* `numeric-separators-style`
+	* `prefer-math-trunc`
+	* `prefer-ternary`
+* Required `eslint >=7.11.0` (updated)
+* Required `eslint-plugin-unicorn >=23.0.0` (updated)
+
 ## [0.21.0] (2020-09-27)
 * Updated the installation docs
 * Required `eslint >=7.10.0` (updated)
@@ -111,6 +119,7 @@
 [eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node
 [eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
 
+[0.22.0]: https://github.com/valtlai/eslint-config/compare/v0.21.0...v0.22.0
 [0.21.0]: https://github.com/valtlai/eslint-config/compare/v0.20.1...v0.21.0
 [0.20.1]: https://github.com/valtlai/eslint-config/compare/v0.20.0...v0.20.1
 [0.20.0]: https://github.com/valtlai/eslint-config/compare/v0.19.1...v0.20.0
