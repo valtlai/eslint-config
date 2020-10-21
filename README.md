@@ -7,20 +7,20 @@ ESLint config for my personal projects
 
 ## Install or update
 
-If you’re using npm v7:
-
-```sh
-npm i -D --save-prefix='~' @valtlai/eslint-config@latest
-```
-
-If you’re using an older npm version:
+Install the package and its required peer dependencies:
 
 ```sh
 npm i -D --save-prefix='~' @valtlai/eslint-config@latest \
-   eslint@latest eslint-plugin-node@latest eslint-plugin-unicorn@latest
+   eslint@latest eslint-plugin-unicorn@latest
 ```
 
-The tilde (`~`) range only allows patch-level updates
+If you’re linting Node files, also install the optional peer dependency:
+
+```sh
+npm i -D --save-prefix='~' eslint-plugin-node@latest
+```
+
+The tilde (`~`) ranges only allow patch-level updates
 because the new minor versions may change the linting result.
 
 ## Usage

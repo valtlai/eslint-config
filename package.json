@@ -1,6 +1,6 @@
 {
 	"name": "@valtlai/eslint-config",
-	"version": "0.23.0",
+	"version": "0.22.0",
 	"description": "ESLint config for my personal projects",
 	"author": "Valtteri Laitinen <dev@valtlai.fi>",
 	"license": "MIT",
@@ -27,6 +27,11 @@
 		"eslint": ">=7.11.0",
 		"eslint-plugin-node": ">=11.1.0",
 		"eslint-plugin-unicorn": ">=23.0.0"
+	},
+	"peerDependenciesMeta": {
+		"eslint-plugin-node": {
+			"optional": true
+		}
 	},
 	"husky": {
 		"hooks": {
