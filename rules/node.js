@@ -8,6 +8,8 @@ module.exports = {
 	'no-process-exit': 'off', // ~> unicorn/no-process-exit // @override
 	// Possible Errors
 	'node/handle-callback-err': ['error', '^err(?:or)?$'],
+	'node/no-missing-import': ['error', { allowModules: ['fs/promises'] }], // @override
+	'node/no-missing-require': ['error', { allowModules: ['fs/promises'] }], // @override
 	'node/no-path-concat': 'error',
 	...(isPrivate && {
 		'node/no-unpublished-import': 'off', // @override
