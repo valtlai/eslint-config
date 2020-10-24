@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.24.0] (2020-10-25)
+* Updated `eslint` to `~7.12.0`
+
 ## [0.23.0] (2020-10-21)
 * Made `eslint-plugin-node` a _required_ peer dependency again
 * Switched the peer dependencies to use tilde ranges:
@@ -126,6 +129,7 @@
 [eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node
 [eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
 
+[0.24.0]: https://github.com/valtlai/eslint-config/compare/v0.23.0...v0.24.0
 [0.23.0]: https://github.com/valtlai/eslint-config/compare/v0.22.0...v0.23.0
 [0.22.0]: https://github.com/valtlai/eslint-config/compare/v0.21.0...v0.22.0
 [0.21.0]: https://github.com/valtlai/eslint-config/compare/v0.20.1...v0.21.0
