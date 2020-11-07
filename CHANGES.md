@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.25.0] (2020-11-07)
+* Removed the `arrow-parens` rule
+* Updated `eslint` to `~7.13.0`
+
 ## [0.24.0] (2020-10-25)
 * Updated `eslint` to `~7.12.0`
 
@@ -11,7 +15,7 @@
 	* `eslint-plugin-unicorn ~23.0.0`
 
 ## [0.22.0] (2020-10-16)
-* Enabled the new rules from eslint-plugin-unicorn:
+* Added the new rules from eslint-plugin-unicorn:
 	* `numeric-separators-style`
 	* `prefer-math-trunc`
 	* `prefer-ternary`
@@ -45,7 +49,7 @@
 * Enabled the `es2021` environment
 
 ## [0.16.0] (2020-09-20)
-* Disabled the `function-call-argument-newline` rule
+* Removed the `function-call-argument-newline` rule
 
 ## [0.15.0] (2020-09-19)
 * Disabled the `node/no-unpublished-import`
@@ -57,7 +61,7 @@
 * Required `eslint-plugin-unicorn >=22.0.0` (updated)
 
 ## [0.13.0] (2020-09-02)
-* Enabled `arrow-parens` to always require parentheses
+* Added `arrow-parens` to always require parentheses
   around the function parameters if the body is surrounded by braces,
   and otherwise to omit them when possible
 * Required `eslint >=7.8.1` (updated)
@@ -87,8 +91,8 @@
 
 ## [0.7.0] (2020-08-04)
 * Added the `node` and `browser` configs
-* Enabled `comma-dangle` to disallow trailing comma in single-line constructs
-* Enabled `key-spacing` allowing multiple spaces after the colon
+* Added `comma-dangle` to disallow trailing comma in single-line constructs
+* Added `key-spacing` allowing multiple spaces after the colon
   in multi-line object literals to align similar values
 
 ## [0.6.0] (2020-08-02)
@@ -129,6 +133,7 @@
 [eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node
 [eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
 
+[0.25.0]: https://github.com/valtlai/eslint-config/compare/v0.24.0...v0.25.0
 [0.24.0]: https://github.com/valtlai/eslint-config/compare/v0.23.0...v0.24.0
 [0.23.0]: https://github.com/valtlai/eslint-config/compare/v0.22.0...v0.23.0
 [0.22.0]: https://github.com/valtlai/eslint-config/compare/v0.21.0...v0.22.0
