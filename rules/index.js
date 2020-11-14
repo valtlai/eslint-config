@@ -58,6 +58,7 @@ module.exports = {
 	'prefer-regex-literals': ['error', { disallowRedundantWrapping: true }],
 	'radix': 'error',
 	'require-await': 'error',
+	'require-unicode-regexp': 'error',
 	'wrap-iife': ['error', 'inside'],
 	'yoda': 'error',
 
