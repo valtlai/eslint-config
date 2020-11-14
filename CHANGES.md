@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.26.0] (2020-11-14)
+* Added the `require-unicode-regexp` rule
+
 ## [0.25.0] (2020-11-07)
 * Removed the `arrow-parens` rule
 * Updated `eslint` to `~7.13.0`
@@ -133,6 +136,7 @@
 [eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node
 [eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
 
+[0.26.0]: https://github.com/valtlai/eslint-config/compare/v0.25.0...v0.26.0
 [0.25.0]: https://github.com/valtlai/eslint-config/compare/v0.24.0...v0.25.0
 [0.24.0]: https://github.com/valtlai/eslint-config/compare/v0.23.0...v0.24.0
 [0.23.0]: https://github.com/valtlai/eslint-config/compare/v0.22.0...v0.23.0
