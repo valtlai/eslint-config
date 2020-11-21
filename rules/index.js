@@ -41,6 +41,7 @@ module.exports = {
 	'no-multi-str': 'error',
 	'no-new': 'error',
 	'no-new-func': 'error',
+	'no-nonoctal-decimal-escape': 'error',
 	'no-param-reassign': 'error',
 	'no-proto': 'error',
 	'no-return-assign': ['error', 'always'],
