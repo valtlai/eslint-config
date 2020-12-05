@@ -9,6 +9,7 @@ module.exports = {
 	'no-promise-executor-return': 'error', // (= array-callback-return)
 	'no-template-curly-in-string': 'error',
 	'no-unreachable-loop': 'error',
+	'no-unsafe-optional-chaining': ['error', { disallowArithmeticOperators: true }],
 	'no-useless-backreference': 'error',
 	'require-atomic-updates': 'error',
 	'use-isnan': ['error', { enforceForIndexOf: true }], // @override
