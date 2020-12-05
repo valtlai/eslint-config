@@ -16,14 +16,14 @@
 		"node": "^10 || ^12 || >=14"
 	},
 	"devDependencies": {
-		"eslint": "~7.14.0",
+		"eslint": "~7.15.0",
 		"eslint-plugin-node": "~11.1.0",
 		"eslint-plugin-unicorn": "~23.0.0",
 		"husky": "^5.0.4",
 		"pinst": "^2.1.1"
 	},
 	"peerDependencies": {
-		"eslint": "~7.14.0",
+		"eslint": "~7.15.0",
 		"eslint-plugin-node": "~11.1.0",
 		"eslint-plugin-unicorn": "~23.0.0"
 	},
