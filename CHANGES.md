@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.28.0] (2020-12-05)
+* Added the `no-unsafe-optional-chaining` rule
+* Updated `eslint` to `~7.15.0`
+
 ## [0.27.0] (2020-11-21)
 * Added the `no-nonoctal-decimal-escape` rule
 * Updated `eslint` to `~7.14.0`
@@ -140,6 +144,7 @@
 [eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node
 [eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
 
+[0.28.0]: https://github.com/valtlai/eslint-config/compare/v0.27.0...v0.28.0
 [0.27.0]: https://github.com/valtlai/eslint-config/compare/v0.26.0...v0.27.0
 [0.26.0]: https://github.com/valtlai/eslint-config/compare/v0.25.0...v0.26.0
 [0.25.0]: https://github.com/valtlai/eslint-config/compare/v0.24.0...v0.25.0
