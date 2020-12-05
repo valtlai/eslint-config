@@ -7,7 +7,10 @@
 	"repository": "valtlai/eslint-config",
 	"scripts": {
 		"test": "eslint .",
-		"prepack": "node .prepack"
+		"prepack": "node .prepack",
+		"install": "husky install && husky add pre-commit 'npm test'",
+		"prepublishOnly": "pinst --disable",
+		"postpublish": "pinst --enable"
 	},
 	"engines": {
 		"node": "^10 || ^12 || >=14"
@@ -16,7 +19,8 @@
 		"eslint": "~7.14.0",
 		"eslint-plugin-node": "~11.1.0",
 		"eslint-plugin-unicorn": "~23.0.0",
-		"husky": "^4.3.0"
+		"husky": "^5.0.4",
+		"pinst": "^2.1.1"
 	},
 	"peerDependencies": {
 		"eslint": "~7.14.0",
