@@ -17,7 +17,7 @@ If you’re using an older npm version:
 
 ```sh
 npm i -D --save-prefix='~' @valtlai/eslint-config@latest \
-   eslint@latest eslint-plugin-node@latest eslint-plugin-unicorn@latest
+   eslint@latest eslint-plugin-{node,unicorn}@latest
 ```
 
 The tilde (`~`) range only allows patch-level updates
