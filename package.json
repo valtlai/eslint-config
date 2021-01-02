@@ -15,16 +15,16 @@
 		"node": "^10 || ^12 || >=14"
 	},
 	"devDependencies": {
-		"eslint": "~7.16.0",
+		"eslint": "~7.17.0",
 		"eslint-plugin-node": "~11.1.0",
-		"eslint-plugin-unicorn": "~24.0.0",
+		"eslint-plugin-unicorn": "~25.0.1",
 		"husky": "^5.0.6",
 		"pinst": "^2.1.1"
 	},
 	"peerDependencies": {
-		"eslint": "~7.16.0",
+		"eslint": "~7.17.0",
 		"eslint-plugin-node": "~11.1.0",
-		"eslint-plugin-unicorn": "~24.0.0"
+		"eslint-plugin-unicorn": "~25.0.1"
 	},
 	"eslintConfig": {
 		"extends": [
