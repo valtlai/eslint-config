@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.31.0] (2021-01-17)
+* Added new rules:
+	* `unicorn/consistent-destructuring`
+	* `unicorn/no-new-array`
+	* `unicorn/prefer-array-index-of`
+	* `unicorn/prefer-regexp-test`
+* Updated `eslint` to `~7.18.0`
+* Updated `eslint-plugin-unicorn` to `~26.0.1`
+
 ## [0.30.0] (2021-01-02)
 * Added new rules:
 	* `unicorn/prefer-array-some`
@@ -159,6 +168,7 @@
 [eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node
 [eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
 
+[0.31.0]: https://github.com/valtlai/eslint-config/compare/v0.30.0...v0.31.0
 [0.30.0]: https://github.com/valtlai/eslint-config/compare/v0.29.0...v0.30.0
 [0.29.0]: https://github.com/valtlai/eslint-config/compare/v0.28.0...v0.29.0
 [0.28.0]: https://github.com/valtlai/eslint-config/compare/v0.27.0...v0.28.0
