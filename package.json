@@ -8,23 +8,21 @@
 	"scripts": {
 		"test": "eslint .",
 		"prepack": "node .prepack",
-		"install": "husky install",
-		"prepublishOnly": "pinst --disable"
+		"install": "husky install"
 	},
 	"engines": {
 		"node": "^10 || ^12 || >=14"
 	},
 	"devDependencies": {
-		"eslint": "~7.18.0",
+		"eslint": "~7.19.0",
 		"eslint-plugin-node": "~11.1.0",
-		"eslint-plugin-unicorn": "~26.0.1",
-		"husky": "^5.0.6",
-		"pinst": "^2.1.1"
+		"eslint-plugin-unicorn": "~27.0.0",
+		"husky": "^5.0.8"
 	},
 	"peerDependencies": {
-		"eslint": "~7.18.0",
+		"eslint": "~7.19.0",
 		"eslint-plugin-node": "~11.1.0",
-		"eslint-plugin-unicorn": "~26.0.1"
+		"eslint-plugin-unicorn": "~27.0.0"
 	},
 	"eslintConfig": {
 		"extends": [
