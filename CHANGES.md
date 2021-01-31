@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.32.0] (2021-01-31)
+* Added new rules:
+	* `unicorn/no-array-push-push`
+	* `unicorn/no-this-assignment`
+* Updated `eslint` to `~7.19.0`
+* Updated `eslint-plugin-unicorn` to `~27.0.0`
+
 ## [0.31.0] (2021-01-17)
 * Added new rules:
 	* `unicorn/consistent-destructuring`
@@ -50,10 +57,10 @@
 	* `eslint-plugin-unicorn ~23.0.0`
 
 ## [0.22.0] (2020-10-16)
-* Added the new rules from eslint-plugin-unicorn:
-	* `numeric-separators-style`
-	* `prefer-math-trunc`
-	* `prefer-ternary`
+* Added new rules:
+	* `unicorn/numeric-separators-style`
+	* `unicorn/prefer-math-trunc`
+	* `unicorn/prefer-ternary`
 * Required `eslint >=7.11.0` (updated)
 * Required `eslint-plugin-unicorn >=23.0.0` (updated)
 
@@ -168,6 +175,7 @@
 [eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node
 [eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
 
+[0.32.0]: https://github.com/valtlai/eslint-config/compare/v0.31.0...v0.32.0
 [0.31.0]: https://github.com/valtlai/eslint-config/compare/v0.30.0...v0.31.0
 [0.30.0]: https://github.com/valtlai/eslint-config/compare/v0.29.0...v0.30.0
 [0.29.0]: https://github.com/valtlai/eslint-config/compare/v0.28.0...v0.29.0
