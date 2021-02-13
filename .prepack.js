@@ -1,6 +1,6 @@
 'use strict';
 
-const fs = require('fs/promises');
+const fs = require('fs').promises;
 const json = require('./package.json');
 
 ['scripts', 'devDependencies', 'eslintConfig']
