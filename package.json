@@ -8,7 +8,8 @@
 	"scripts": {
 		"test": "eslint .",
 		"prepack": "node .prepack",
-		"install": "husky install"
+		"install": "husky install",
+		"update": "npm update && node .lockfile"
 	},
 	"engines": {
 		"node": "^10 || ^12 || >=14"
