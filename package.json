@@ -15,15 +15,15 @@
 		"node": "^10 || ^12 || >=14"
 	},
 	"devDependencies": {
-		"eslint": "~7.19.0",
+		"eslint": "~7.20.0",
 		"eslint-plugin-node": "~11.1.0",
-		"eslint-plugin-unicorn": "~27.0.0",
-		"husky": "^5.0.8"
+		"eslint-plugin-unicorn": "~28.0.0",
+		"husky": "^5.0.9"
 	},
 	"peerDependencies": {
-		"eslint": "~7.19.0",
+		"eslint": "~7.20.0",
 		"eslint-plugin-node": "~11.1.0",
-		"eslint-plugin-unicorn": "~27.0.0"
+		"eslint-plugin-unicorn": "~28.0.0"
 	},
 	"eslintConfig": {
 		"extends": [
