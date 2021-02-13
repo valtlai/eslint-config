@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.33.0] (2021-02-13)
+* Updated `eslint` to `~7.20.0`
+* Updated `eslint-plugin-unicorn` to `~28.0.0`
+
 ## [0.32.0] (2021-01-31)
 * Added new rules:
 	* `unicorn/no-array-push-push`
@@ -175,6 +179,7 @@
 [eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node
 [eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
 
+[0.33.0]: https://github.com/valtlai/eslint-config/compare/v0.32.0...v0.33.0
 [0.32.0]: https://github.com/valtlai/eslint-config/compare/v0.31.0...v0.32.0
 [0.31.0]: https://github.com/valtlai/eslint-config/compare/v0.30.0...v0.31.0
 [0.30.0]: https://github.com/valtlai/eslint-config/compare/v0.29.0...v0.30.0
