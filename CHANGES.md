@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.34.0] (2021-02-27)
+* Updated `eslint` to `~7.21.0`
+
 ## [0.33.0] (2021-02-13)
 * Updated `eslint` to `~7.20.0`
 * Updated `eslint-plugin-unicorn` to `~28.0.0`
@@ -179,6 +182,7 @@
 [eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node
 [eslint-plugin-unicorn]: https://github.com/sindresorhus/eslint-plugin-unicorn
 
+[0.34.0]: https://github.com/valtlai/eslint-config/compare/v0.33.0...v0.34.0
 [0.33.0]: https://github.com/valtlai/eslint-config/compare/v0.32.0...v0.33.0
 [0.32.0]: https://github.com/valtlai/eslint-config/compare/v0.31.0...v0.32.0
 [0.31.0]: https://github.com/valtlai/eslint-config/compare/v0.30.0...v0.31.0
