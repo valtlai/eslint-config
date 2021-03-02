@@ -3,6 +3,9 @@
 ## [0.34.0] (2021-02-27)
 * Updated `eslint` to `~7.21.0`
 
+---
+*The following versions are removed from the NPM registry:*
+
 ## [0.33.0] (2021-02-13)
 * Updated `eslint` to `~7.20.0`
 * Updated `eslint-plugin-unicorn` to `~28.0.0`
