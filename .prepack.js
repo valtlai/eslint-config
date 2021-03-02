@@ -6,4 +6,4 @@ const json = require('./package.json');
 ['scripts', 'devDependencies', 'eslintConfig']
 	.forEach(key => delete json[key]);
 
-fs.writeFile('package.json', JSON.stringify(json, null, '\t') + '\n');
+fs.writeFile('package.json', `${JSON.stringify(json, null, '\t')}\n`);
