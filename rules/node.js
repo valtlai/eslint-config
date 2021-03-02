@@ -8,14 +8,23 @@ module.exports = {
 	'no-process-exit': 'off', // ~> unicorn/no-process-exit // @override
 	// Possible Errors
 	'node/handle-callback-err': ['error', '^err(?:or)?$'],
+	'node/no-callback-literal': 'off',
+	'node/no-new-require': 'off',
 	'node/no-path-concat': 'error',
+	'node/no-process-exit': 'off', // ~> unicorn/no-process-exit
 	...(isPrivate && {
 		'node/no-unpublished-import': 'off', // @override
 		'node/no-unpublished-require': 'off', // @override
 	}),
 	// Stylistic Issues
+	'node/callback-return': 'off',
+	'node/exports-style': 'off',
 	'node/file-extension-in-import': 'error',
 	'node/global-require': 'error',
+	'node/no-mixed-requires': 'off',
+	'node/no-process-env': 'off',
+	'node/no-restricted-import': 'off',
+	'node/no-restricted-require': 'off',
 	'node/no-sync': 'error',
 	'node/prefer-global/buffer': 'error',
 	'node/prefer-global/console': 'error',
